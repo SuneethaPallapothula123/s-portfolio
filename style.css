@@ -10,4 +10,27 @@
 .container-fluid a{
     font-style: normal;
 }
+.title-icon{
+    font-size: 20px;
+    font-weight: italic;
+}
+p{
+    font-size: 20px;
+
+}
+h2{
+    font-weight: normal;
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+
+#about{
+    margin-left: 35%;
+    margin-right: 35%;
+    text-align: center;
+}
+#about img{
+    border-radius: 50%;
+    width: 40%;
+}
 
