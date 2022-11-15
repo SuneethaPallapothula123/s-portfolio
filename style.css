@@ -24,7 +24,9 @@ h2{
     font-size: 25px;
     margin-bottom: 20px;
 }
-
+a.font-black{
+    color: black !important;
+}
 #about{
     margin-left: 35%;
     margin-right: 35%;
@@ -45,15 +47,32 @@ h2{
     font-weight: bold;
 }
 #about h3{
-    color: rgb(125, 125, 125);
+    color: rgb(0, 0, 0);
 }
 #project{
     margin: 60px auto;
     width: 80%;
+    display: flex;
 }
 #project h2{
     text-align: center;
 }
-#project .card img{
-    width: 100%; 
+.card-1 img{
+    width: 20%;
+    height: 20%;
+    float: left;
+
 }
+.card-1 .card-body{
+    float: right;
+}
+.card-2 img{
+    width: 20%;
+    height: 20%;
+    float: left;
+
+}
+.card-body{
+    float: right;
+}
+
