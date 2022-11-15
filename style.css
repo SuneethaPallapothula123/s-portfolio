@@ -5,6 +5,7 @@
 
 .container-fluid span{
     color: cyan;  
+    font-weight: bold;
 }
 
 .container-fluid a{
@@ -32,5 +33,18 @@ h2{
 #about img{
     border-radius: 50%;
     width: 40%;
+}
+
+#about span{
+    color: cyan;
+
+}
+
+#about .skills{
+    color: cyan;
+    font-weight: bold;
+}
+#about h3{
+    color: rgb(124, 124, 124);
 }
 
