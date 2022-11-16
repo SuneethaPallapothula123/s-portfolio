@@ -32,9 +32,16 @@ a.font-black{
     color: black !important;
 }
 #about{
-    margin-left: 35%;
-    margin-right: 35%;
+margin: 60px auto;
+max-width: 400px;
     text-align: center;
+}
+.icons{
+    margin-top: 15px;
+}
+.icons a i {
+
+    font-size: 40px;
 }
 #about img{
     border-radius: 50%;
@@ -60,6 +67,9 @@ a.font-black{
 #projects{
    margin: 60px auto;
    width: 80%;
+}
+#projects .card{
+    overflow: hidden;
 }
 #projects h2{
     text-align: center;
